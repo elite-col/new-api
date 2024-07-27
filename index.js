@@ -17,8 +17,8 @@ const port = process.env.PORT;
 app.get('/', async (request, reply) => {
     return {
         intro: "Welcome to the unofficial multi provider resolver and eporner api currently the ONLY All-In-One solution aswell as additional Eporner resolver.",
-        documentation: "Please see github repo : https://github.com/Inside4ndroid/AIO-StreamSource",
-        author: "This api is developed and created by Inside4ndroid"
+        documentation: "soon",
+        author: "This api is developed and created by thorop"
     };
 });
 
