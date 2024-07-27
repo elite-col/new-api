@@ -1,5 +1,5 @@
 {
-  "name": "aio-streamsource",
+  "name": "streamsource",
   "version": "1.0.0",
   "main": "index.mjs",
   "type": "module",
@@ -7,7 +7,7 @@
     "main": "node --watch index.js"
   },
   "keywords": [],
-  "author": "Inside4ndoid Studios",
+  "author": "thorop",
   "license": "GPL-3.0-only",
   "description": "An all in node to extract vidsrc keys obtain vidsrc sources and subtitles aswell as the full eporner api with a eporner source resolver.!",
   "dependencies": {
