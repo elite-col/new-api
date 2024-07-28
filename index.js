@@ -12,7 +12,7 @@ import { VidSrcExtractor, VidSrcExtractor2  } from './src/vidsrcme/vidsrcme.js';
 const app = fastify();
 
 const tmdbApi = process.env.TMDB_KEY;
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 app.get('/', async (request, reply) => {
     return {
