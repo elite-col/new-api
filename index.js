@@ -290,5 +290,11 @@ app.get("/vidsrc", async (request, reply) => {
   }
 });
 
-app.listen({ port: port });
+app.listen({ port: 3000, host: '0.0.0.0' }, (err, address) => {
+  if (err) {
+    consile.log(err)
+    process.exit(1);
+  }
 console.log(`AIO Streamer is listening on port http://localhost:${port}`);
+})
+
